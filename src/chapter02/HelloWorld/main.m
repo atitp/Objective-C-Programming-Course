@@ -8,6 +8,5 @@ int main(int argc, char *argv[]) {
 	NSLog(@"Hello, World!");
 	
 	[pool drain];
-	[return 0];
-	}
+	return 0;
 }
